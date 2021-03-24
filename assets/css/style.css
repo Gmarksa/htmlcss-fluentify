@@ -13,7 +13,7 @@
 }
 
 .Container{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -32,7 +32,8 @@ h3{
 }
 
 a{
-    color: #5586bc;
+    color: inherit;
+    text-decoration: none;
 }
 
 hr{
@@ -90,15 +91,20 @@ hr{
 .Banner_Area{
     width: 50%;
 
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 #Logo{
     margin-right: 5%;
 }
 
-.idk{
+.Montagna{
     width: 50%;
+    height: 100%;
+}
+
+.Placement{
+    width: 25%;
     height: 100%;
 }
 
@@ -115,9 +121,15 @@ hr{
     width: 20%;
 }
 
-.btn{
-    background-color: #7cbb02;
+#login{
+    border: 1px solid white;
+    width: 20px;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
 
+.btn_small, .btn_medium{
+    background-color: #7cbb02;
     border-radius: 8px;
 }
 
@@ -127,7 +139,6 @@ hr{
 
 .btn_medium{
     padding: 20px;
-    overflow: hidden;
 }
 
 .menu_centro{
