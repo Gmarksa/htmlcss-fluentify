@@ -54,10 +54,10 @@
         </div>
 
         <!-- 3 Immagini -->
-        <div class="BG_White Container Clearfix">
+        <div id="Tre_Colonne" class="BG_White Container Clearfix">
             <!-- Immagine Sinistra -->
             <div class="width_20 mr_10">
-                <img class="Test" src="./assets/img/profile.svg" alt="">
+                <img class="small_img mb_20" src="./assets/img/profile.svg" alt="">
                 <h3>Piano formativo configurato sul proprio livello</h3>
                 <p class="Grey_txt">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -67,7 +67,7 @@
 
             <!-- Immagine Centro -->
             <div class="width_20 mr_10">
-                <img class="Test" src="./assets/img/computer.svg" alt="">
+                <img class="small_img mb_20" src="./assets/img/computer.svg" alt="">
                 <h3>Affiancamento costante del tutor</h3>
                 <p class="Grey_txt">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -77,7 +77,7 @@
 
             <!-- Immagine Destra -->
             <div class="width_20 mr_10">
-                <img class="Test" src="./assets/img/doc.svg" alt="">
+                <img class="small_img mb_20" src="./assets/img/doc.svg" alt="">
                 <h3>Monitora i tuoi progressi costantemente</h3>
                 <p class="Grey_txt">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -91,12 +91,12 @@
         <!-- Img Montagna & Placement -->
         <div class="BG_White Container Clearfix">
             <div class="Montagna">
-                <img id="Test_Due" src="./assets/img/mountain.svg" alt="">
+                <img id="mountain_img" src="./assets/img/mountain.svg" alt="">
             </div>
 
             <div class="Placement">
-                <h2>Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
-                <p class="Grey_txt">
+                <h2 class="mb_20">Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
+                <p class="Grey_txt mb_20">
                     L'esperienza Fluntify parte sempre da un test di placement per avere una chiara visione del tuo 
                     inglese, ad oggi.
                 </p>
@@ -106,17 +106,22 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="BG_Grey">
+    <footer class="BG_Grey">
+        <div id="Footer">
             <div class="Container">
                 <h2>Struttura un piano</h2>
-                <span>Sono</span>
-                <select>
-                    <option value="">Seleziona</option>
-                    <option value="Opz1">Opzione1</option>
-                    <option value="Opz2">Opzione2</option>
-                    <option value="Opz3">Opzione3</option>
-                </select>
+
+                <div class="sposta_destra">
+                    <span class="Grey_txt">Sono</span>
+                    <select style="background-color: inherit; border-style: none none solid;" class="Grey_txt">
+                        <option value="">Seleziona</option>
+                        <option value="Opz1">Opzione1</option>
+                        <option value="Opz2">Opzione2</option>
+                        <option value="Opz3">Opzione3</option>
+                    </select>
+                    <span class="btn_medium"><a href="#">VISUALIZZA IL TUO PIANO</a></span>
+                    <span class="btn_small"><a href="">HELP</a></span>
+                </div>
             </div>
         </div>    
     </footer>

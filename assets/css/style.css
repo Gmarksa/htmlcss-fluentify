@@ -28,6 +28,10 @@ h3{
     background-color: #808080;
 
     text-align: center;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     display: block;
 }
 
@@ -75,7 +79,6 @@ hr{
 .BG_Grey{
     background-color: #d3d3d3;
     height: 200px;
-/*     line-height: 200px; */
 }
 
 .BG_White{
@@ -108,12 +111,11 @@ hr{
     height: 100%;
 }
 
-.Test{
+.small_img{
     height: 150px;
-    text-align: center;
 }
 
-#Test_Due{
+#mountain_img{
     width: 60%;
 }
 
@@ -131,6 +133,8 @@ hr{
 .btn_small, .btn_medium{
     background-color: #7cbb02;
     border-radius: 8px;
+
+    color: white;
 }
 
 .btn_small{
@@ -163,4 +167,16 @@ nav > div{
 
 nav div > span{
     margin-right: 20px;
+}
+
+#Tre_Colonne{
+    text-align: -webkit-center;
+}
+
+.sposta_destra{
+    text-align: right;
+}
+
+#Footer{
+    padding-top: 75px;
 }
