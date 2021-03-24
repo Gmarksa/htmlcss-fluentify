@@ -13,12 +13,22 @@
 }
 
 .Container{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 h3{
     color: #7cbb02;
+}
+
+.BG_White h3::after{
+    content: '';
+    width: 25%;
+    height: 1px;
+    background-color: #808080;
+
+    text-align: center;
+    display: block;
 }
 
 a{
@@ -27,7 +37,25 @@ a{
 
 hr{
     margin-top: 25px;
-    margin-bottom: 25px;
+}
+
+/* Utility */
+
+.mr_10{
+    margin-right: 10%;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+.Grey_txt{
+    color: #808080;
+}
+
+.Center{
+    padding: 75px 0;
+    text-align: center;
 }
 
 .BG_Blue{
@@ -51,6 +79,8 @@ hr{
 
 .BG_White{
     background-color: white;
+
+    margin-top: 25px;
 }
 
 .BG_White > div{
@@ -65,10 +95,6 @@ hr{
 
 #Logo{
     margin-right: 5%;
-}
-
-nav > span{
-    margin-right: 25px;
 }
 
 .idk{
@@ -89,19 +115,6 @@ nav > span{
     width: 20%;
 }
 
-.mr_10{
-    margin-right: 10%;
-}
-
-.Grey_txt{
-    color: #808080;
-}
-
-.Center{
-    padding: 75px 0;
-    text-align: center;
-}
-
 .btn{
     background-color: #7cbb02;
 
@@ -114,4 +127,29 @@ nav > span{
 
 .btn_medium{
     padding: 20px;
+    overflow: hidden;
+}
+
+.menu_centro{
+    width: 45%;
+}
+
+.menu_destra{
+    width: 35%;
+    text-align: right;
+}
+
+nav{
+    padding-top: 15px;
+    line-height: 45px;
+}
+
+nav > div{
+    float: left;
+
+    margin-right: 25px;
+}
+
+nav div > span{
+    margin-right: 20px;
 }
