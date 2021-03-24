@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.Clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.Container{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    color: #7cbb02;
+}
+
+a{
+    color: #5586bc;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.BG_Blue{
+    height: 500px;
+    background-color: #0c325a;
+
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 105% 110%;
+
+    color: white;
+    text-transform: uppercase;
+}
+
+.BG_Grey{
+    background-color: #d3d3d3;
+    height: 200px;
+/*     line-height: 200px; */
+}
+
+.BG_White{
+    background-color: white;
+}
+
+.BG_White > div{
+    float: left;
+}
+
+.Banner_Area{
+    width: 50%;
+
+    padding: 200px 0;
+}
+
+#Logo{
+    margin-right: 5%;
+}
+
+nav > span{
+    margin-right: 25px;
+}
+
+.idk{
+    width: 50%;
+    height: 100%;
+}
+
+.Test{
+    height: 150px;
+    text-align: center;
+}
+
+#Test_Due{
+    width: 60%;
+}
+
+.width_20{
+    width: 20%;
+}
+
+.mr_10{
+    margin-right: 10%;
+}
+
+.Grey_txt{
+    color: #808080;
+}
+
+.Center{
+    padding: 75px 0;
+    text-align: center;
+}
+
+.btn{
+    background-color: #7cbb02;
+
+    border-radius: 8px;
+}
+
+.btn_small{
+    padding: 10px;
+}
+
+.btn_medium{
+    padding: 20px;
+}
